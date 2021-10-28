@@ -1,5 +1,17 @@
 # Assignment 1
 
+## Foreword
+
+I was partially inspired by this timer:
+https://dribbble.com/shots/4337469-Daily-UI-014-Countdown-Timer
+as well as the example that was demonstrated in class.
+
+Link to live example:
+
+Other Resources:
+https://fontawesome.com
+https://github.com/reactjs/react-transition-group
+
 ## Objective
 
 For Assignment 1 (A1) we are going to be building a component libary that we can use for future assignments. Our main goal is to layout the components that will be composed together to create our final bigger components. We will focus on composition, component interfaces, and styling. We aren't going to focus on functionality quite yet and at first our components will be very static.
@@ -45,7 +57,7 @@ For other ways to deploy see https://github.com/prof-tejera/react-deployment-cod
 - All generic components that you have created have been added `docs` and the PropType interfaces have been defined in each of component files.
 - Assemble all timers and render them. They for the most part should be static and not functional.
 - Keep your code as DRY (Don't repeat yourself) as possible
-- The console should be free of errors and  warnings
+- The console should be free of errors and warnings
 
 ## Install and Run Project
 
