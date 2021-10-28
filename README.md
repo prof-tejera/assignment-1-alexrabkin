@@ -3,10 +3,10 @@
 ## Foreword
 
 I was partially inspired by this timer:
-https://dribbble.com/shots/4337469-Daily-UI-014-Countdown-Timer
+https://dribbble.com/shots/4337469-Daily-UI-014-Countdown-Timer,
 as well as the example that was demonstrated in class.
 
-Link to live example: https://gifted-davinci-ab4a29.netlify.app/
+Link to live example: **https://gifted-davinci-ab4a29.netlify.app/**
 
 Other Resources:
 https://fontawesome.com,
