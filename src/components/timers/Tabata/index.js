@@ -1,8 +1,9 @@
 import React from "react";
+import Timer from "../../generic/Timer";
 
 class Tabata extends React.Component {
   render() {
-    return null;
+    return <Timer type="Tabata" />;
   }
 }
 

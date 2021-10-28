@@ -4,11 +4,15 @@ import styled from "styled-components";
 const Wrapper = styled.div`
   border: 1px solid #121212;
   margin: 20px 0px;
+  background-color: #121212;
+  color: #c5c5c5;
 `;
 
 const Container = styled.div`
   padding: 20px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-between;
 `;
 
@@ -35,24 +39,26 @@ class DocumentComponent extends React.Component {
         <Container>
           <RenderComponent>{this.props.component}</RenderComponent>
           <Documentation>
-            <tr>
-              <th>Prop</th>
-              <th>Description</th>
-              <th>Type</th>
-              <th>Default value</th>
-            </tr>
-            {this.props.propDocs.map((doc) => {
-              return (
-                <tr>
-                  <td>{doc.prop}</td>
-                  <td>{doc.description}</td>
-                  <td>{doc.type}</td>
-                  <td>
-                    <code>{doc.defaultValue}</code>
-                  </td>
-                </tr>
-              );
-            })}
+            <tbody>
+              <tr>
+                <th>Prop</th>
+                <th>Description</th>
+                <th>Type</th>
+                <th>Default value</th>
+              </tr>
+              {this.props.propDocs.map((doc) => {
+                return (
+                  <tr key={doc.prop}>
+                    <td>{doc.prop}</td>
+                    <td>{doc.description}</td>
+                    <td>{doc.type}</td>
+                    <td>
+                      <code>{doc.defaultValue}</code>
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
           </Documentation>
         </Container>
       </Wrapper>

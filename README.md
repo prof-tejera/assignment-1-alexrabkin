@@ -1,5 +1,17 @@
 # Assignment 1
 
+## Foreword
+
+I was partially inspired by this timer:
+https://dribbble.com/shots/4337469-Daily-UI-014-Countdown-Timer,
+as well as the example that was demonstrated in class.
+
+Link to live example: **https://gifted-davinci-ab4a29.netlify.app/**
+
+Other Resources:
+https://fontawesome.com,
+https://github.com/reactjs/react-transition-group
+
 ## Objective
 
 For Assignment 1 (A1) we are going to be building a component libary that we can use for future assignments. Our main goal is to layout the components that will be composed together to create our final bigger components. We will focus on composition, component interfaces, and styling. We aren't going to focus on functionality quite yet and at first our components will be very static.
@@ -23,7 +35,7 @@ Our larger components are going to be `Stopwatch`, `Countdown`, `XY`, and `TABAT
 2. Assemble your timers using the generic component library you have created. All timers should render at `localhost:3000`.
 3. Style your components in a way that they are consistent and look presentable. Do not use an existing UI design library (e.g. Google's Material UI or Antd), instead try to come up with your own. **You are welcome to search the internet for design inspiration, but make sure to cite all resources you have used.**
 4. Document all of the generic components you have created. In order to do this navigate to `src/view/Documentation` and add your components 1 by 1 with documentation of all props. We have provided an example loading spinner that you can follow.
-5. Deploy your application using any method you like (we will provide instructions for GH actions): **URL_TO_APP**
+5. Deploy your application using any method you like (we will provide instructions for GH actions): **https://gifted-davinci-ab4a29.netlify.app/**
 
 ### Deployment Instructions (GH actions)
 
@@ -45,7 +57,7 @@ For other ways to deploy see https://github.com/prof-tejera/react-deployment-cod
 - All generic components that you have created have been added `docs` and the PropType interfaces have been defined in each of component files.
 - Assemble all timers and render them. They for the most part should be static and not functional.
 - Keep your code as DRY (Don't repeat yourself) as possible
-- The console should be free of errors and  warnings
+- The console should be free of errors and warnings
 
 ## Install and Run Project
 
